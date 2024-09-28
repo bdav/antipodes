@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Antipode</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map1,
+        #map2 {
+            height: 50vh;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add a search box -->
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <!-- Create a div to hold the map -->
+    <div id="map1"></div>
+    <div id="map2"></div>
+    <!-- Load the TypeScript code -->
+    <script type="module" src="/src/index.ts"></script>
+</body>
+
+</html>
